@@ -1,0 +1,24 @@
+.filters {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding-left: 20px;
+}
+
+::ng-deep {
+  .mat-mdc-form-field-infix, .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: #3f51b5;
+  }
+
+  .mat-mdc-select-value,
+  .mat-mdc-select-arrow,
+  .mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label{
+    color: #fff !important;
+    opacity: 1;
+  }
+
+  .mat-mdc-form-field-infix {
+    border-color: #fff !important;
+    border-top: none;
+    padding-left: 5px !important;
+  }
+}
